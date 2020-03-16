@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14460.31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14460.20"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="iN0-l3-epB" customClass="StickerPackTableViewCell" customModule="WAStickersThirdParty" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="260" height="113"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Sticker pack" textAlignment="natural" lineBreakMode="wordWrap" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Dw5-26-vYF">
+                    <rect key="frame" x="22" y="6" width="95" height="20"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <nil key="textColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" userInteractionEnabled="NO" tag="10" contentMode="scaleToFill" bounces="NO" scrollEnabled="NO" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" bouncesZoom="NO" dataMode="none" prefetchingEnabled="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hSp-nO-Hfz">
+                    <rect key="frame" x="16" y="34" width="175" height="70"/>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <collectionViewFlowLayout key="collectionViewLayout" minimumLineSpacing="20" minimumInteritemSpacing="10" id="GoT-G9-FrE">
+                        <size key="itemSize" width="48" height="48"/>
+                        <size key="headerReferenceSize" width="0.0" height="0.0"/>
+                        <size key="footerReferenceSize" width="0.0" height="0.0"/>
+                        <inset key="sectionInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
+                    </collectionViewFlowLayout>
+                </collectionView>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Sticker pack" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="uUB-6p-ZfQ" userLabel="Data Size Label">
+                    <rect key="frame" x="125" y="8" width="75" height="16"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                    <color key="textColor" white="0.66666666666666663" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="PEw-TP-Vgb" userLabel="AdditionalStickerCount">
+                    <rect key="frame" x="155" y="61" width="28" height="16"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="28" id="Y5C-vL-upd"/>
+                        <constraint firstAttribute="height" constant="16" id="y3r-oj-Fif"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                    <color key="textColor" white="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <nil key="highlightedColor"/>
+                </label>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="PEw-TP-Vgb" firstAttribute="centerY" secondItem="iN0-l3-epB" secondAttribute="centerY" constant="12.5" id="AWk-ol-1M1"/>
+                <constraint firstAttribute="trailing" secondItem="PEw-TP-Vgb" secondAttribute="trailing" constant="77" id="CyH-Rg-2KV"/>
+                <constraint firstItem="hSp-nO-Hfz" firstAttribute="leading" secondItem="Dw5-26-vYF" secondAttribute="leading" constant="-6" id="MlH-m7-cw7"/>
+                <constraint firstItem="Dw5-26-vYF" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" constant="6" id="Vya-5Y-mvP"/>
+                <constraint firstItem="hSp-nO-Hfz" firstAttribute="centerY" secondItem="iN0-l3-epB" secondAttribute="centerY" constant="12.5" id="Xr5-uK-DUe"/>
+                <constraint firstItem="uUB-6p-ZfQ" firstAttribute="leading" secondItem="Dw5-26-vYF" secondAttribute="trailing" constant="8" symbolic="YES" id="dTZ-uw-Nyj"/>
+                <constraint firstItem="hSp-nO-Hfz" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" constant="16" id="fLr-ZM-9Yi"/>
+                <constraint firstAttribute="bottom" secondItem="hSp-nO-Hfz" secondAttribute="bottom" constant="9" id="ivu-3q-jeC"/>
+                <constraint firstAttribute="trailing" secondItem="hSp-nO-Hfz" secondAttribute="trailing" constant="69" id="rVx-RZ-tXb"/>
+                <constraint firstItem="Dw5-26-vYF" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" constant="22" id="siO-mg-ao7"/>
+                <constraint firstItem="hSp-nO-Hfz" firstAttribute="top" secondItem="Dw5-26-vYF" secondAttribute="bottom" constant="8" id="t0h-YD-4wE"/>
+                <constraint firstItem="hSp-nO-Hfz" firstAttribute="top" secondItem="uUB-6p-ZfQ" secondAttribute="bottom" constant="10" id="uYG-Bc-5Pp"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <connections>
+                <outlet property="stickerPackAdditionalCountLabel" destination="PEw-TP-Vgb" id="RA2-f1-uuK"/>
+                <outlet property="stickerPackCollectionView" destination="hSp-nO-Hfz" id="zR0-wd-4sv"/>
+                <outlet property="stickerPackDataSizeLabel" destination="uUB-6p-ZfQ" id="DYF-qq-Qih"/>
+                <outlet property="stickerPackTitleLabel" destination="Dw5-26-vYF" id="ZKI-xa-a9t"/>
+            </connections>
+            <point key="canvasLocation" x="-59.200000000000003" y="-221.73913043478262"/>
+        </view>
+    </objects>
+</document>

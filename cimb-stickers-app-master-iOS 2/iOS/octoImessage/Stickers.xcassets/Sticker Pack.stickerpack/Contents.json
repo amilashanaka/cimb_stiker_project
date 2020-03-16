@@ -1,0 +1,104 @@
+{
+  "stickers" : [
+    {
+      "filename" : "allthebest.sticker"
+    },
+    {
+      "filename" : "annoyed.sticker"
+    },
+    {
+      "filename" : "aprilfool.sticker"
+    },
+    {
+      "filename" : "balikkampung.sticker"
+    },
+    {
+      "filename" : "bikeday.sticker"
+    },
+    {
+      "filename" : "celebrate.sticker"
+    },
+    {
+      "filename" : "drool.sticker"
+    },
+    {
+      "filename" : "duitraya.sticker"
+    },
+    {
+      "filename" : "facepalm.sticker"
+    },
+    {
+      "filename" : "fatherday.sticker"
+    },
+    {
+      "filename" : "haha.sticker"
+    },
+    {
+      "filename" : "hearteyes.sticker"
+    },
+    {
+      "filename" : "hi.sticker"
+    },
+    {
+      "filename" : "idk.sticker"
+    },
+    {
+      "filename" : "kiss.sticker"
+    },
+    {
+      "filename" : "labourday.sticker"
+    },
+    {
+      "filename" : "maaf.sticker"
+    },
+    {
+      "filename" : "motherday.sticker"
+    },
+    {
+      "filename" : "multitask.sticker"
+    },
+    {
+      "filename" : "ok.sticker"
+    },
+    {
+      "filename" : "ramen.sticker"
+    },
+    {
+      "filename" : "selamathariraya.sticker"
+    },
+    {
+      "filename" : "shades.sticker"
+    },
+    {
+      "filename" : "shocked.sticker"
+    },
+    {
+      "filename" : "smile.sticker"
+    },
+    {
+      "filename" : "teacherday.sticker"
+    },
+    {
+      "filename" : "thankyou.sticker"
+    },
+    {
+      "filename" : "thumbsup.sticker"
+    },
+    {
+      "filename" : "what.sticker"
+    },
+    {
+      "filename" : "wink.sticker"
+    },
+    {
+      "filename" : "zzzz.sticker"
+    }
+  ],
+  "info" : {
+    "version" : 1,
+    "author" : "xcode"
+  },
+  "properties" : {
+    "grid-size" : "regular"
+  }
+}

@@ -1,0 +1,59 @@
+PODS:
+  - FontAwesome.swift (1.3.2)
+  - Kingfisher (4.7.0)
+  - OneSignal (2.9.5)
+  - PryntTrimmerView (4.0.0)
+  - SDWebImage (4.3.3):
+    - SDWebImage/Core (= 4.3.3)
+  - SDWebImage/Core (4.3.3)
+  - Siren (4.2.2)
+  - SteviaLayout (4.6.1)
+  - Toast-Swift (3.0.1)
+  - YPImagePicker (4.1.2):
+    - PryntTrimmerView (~> 4.0.0)
+    - SteviaLayout (~> 4.6.0)
+
+DEPENDENCIES:
+  - FontAwesome.swift
+  - Kingfisher
+  - OneSignal (< 3.0, >= 2.6.2)
+  - SDWebImage
+  - Siren (from `https://github.com/ArtSabintsev/Siren.git`, branch `swift4.2`)
+  - Toast-Swift
+  - YPImagePicker
+
+SPEC REPOS:
+  trunk:
+    - FontAwesome.swift
+    - Kingfisher
+    - OneSignal
+    - PryntTrimmerView
+    - SDWebImage
+    - SteviaLayout
+    - Toast-Swift
+    - YPImagePicker
+
+EXTERNAL SOURCES:
+  Siren:
+    :branch: swift4.2
+    :git: https://github.com/ArtSabintsev/Siren.git
+
+CHECKOUT OPTIONS:
+  Siren:
+    :commit: a3c7cfa26d686524bdb7cf0592310a836e53a97c
+    :git: https://github.com/ArtSabintsev/Siren.git
+
+SPEC CHECKSUMS:
+  FontAwesome.swift: b4e4c8ccbbecb12f9b592bc533ff237af3706667
+  Kingfisher: da6b005aa96d37698e3e4f1ccfe96a5b9bbf27d6
+  OneSignal: ccdeb961882f8668305e5b694e2cb7cb325fc907
+  PryntTrimmerView: 67e67573ffd4c073f1308effa66aefd0cfa667a0
+  SDWebImage: de4d90b5bff3571eae7bd16202b1f43135409fa5
+  Siren: 4ce39daf1dd13533ef375c2064d6b8726231c521
+  SteviaLayout: 0c83442390c8a369c21f975ffbd812d11532645b
+  Toast-Swift: ba0b01b095aada709d915f9beb1d38184a2721c3
+  YPImagePicker: bdaa46782668e260fdd9709f19043a9f469fd2ad
+
+PODFILE CHECKSUM: ed43a4f02f7491ce9b7e20ca4fd29d1bbb61d7e9
+
+COCOAPODS: 1.8.4

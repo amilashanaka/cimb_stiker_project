@@ -1,0 +1,8 @@
+app_identifier("com.taqisystems.app.stickers") # The bundle identifier of your app
+apple_id("muhammad@taqisystems.com") # Your Apple email address
+
+itc_team_id("325772") # App Store Connect Team ID
+team_id("DEQ82W9GTZ") # Developer Portal Team ID
+
+# For more information about the Appfile, see:
+#     https://docs.fastlane.tools/advanced/#appfile

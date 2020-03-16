@@ -1,0 +1,7 @@
+xcuserdata
+**/project.xcworkspace/xcshareddata
+**/project.xcworkspace/xcuserdata
+.DS_Store
+WAStickersThirdParty.ipa
+WAStickersThirdParty.app.dSYM.zip
+report.xml
